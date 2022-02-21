@@ -43,7 +43,7 @@ class Garage {
         if( this.vehicles.length == this.capacity){
             return 'Sorry, we are full.';
         }
-        //IF the vehicle is a Vehicle class, add it
+        //IF the vehicle is a Vehicle class, add it to garage
         if(vehicle instanceof Vehicle){
             this.vehicles.push(vehicle);
             console.log('Vehicle Added!')
