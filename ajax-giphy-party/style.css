@@ -1,0 +1,37 @@
+img {
+    width: auto;
+    height: 200px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-stretch: semi-expanded;
+    background-color: rgba(2, 2, 2, 0.938);
+    color: rgb(247, 246, 244);
+    padding: 5%
+}
+
+#search-bar{
+    width: 200px;
+}
+
+
+img {
+    border: 2px solid rgba(245, 222, 179, 0.815); 
+    border-radius: 1%;
+    margin: 3px;
+}
+
+h1{
+    font-size: 4em;
+}
+
+button{
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(0, 0, 0, 0.856);
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+
