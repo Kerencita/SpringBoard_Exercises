@@ -24,6 +24,7 @@ async function getGIF (searchterm){
         api_key: 'H8SLL1Ddg2TqchCh0eMVS1UlVP72uTM2',
         q: searchterm,
     }})
+    console.log(response);
     const randomIndex = randomNumber();
     const responseurl = response.data.data[randomIndex].images.original.url;
     postGIF(responseurl);
@@ -44,6 +45,7 @@ async function randomGIF (){
     {params: {
         api_key: 'H8SLL1Ddg2TqchCh0eMVS1UlVP72uTM2',
     }})
+    console.log(response);
     const randomIndex = randomNumber();
     const responseurl = response.data.data[randomIndex].images.original.url;
     postGIF(responseurl);
